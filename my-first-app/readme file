@@ -1,4 +1,5 @@
-### Create a Reactive Blank Template Project using Expo CLI
+## 11213769
+### Create a React Native Blank Template Project using Expo CLI
 1. Change terminal from push to git bash
 2. Run CD desktop to change the directory
 3. Run npx create-expo-app --template to create the expo app
