@@ -1,0 +1,38 @@
+### Create a Reactive Blank Template Project using Expo CLI
+1. Change terminal from push to git bash
+2. Run CD desktop to change the directory
+3. Run npx create-expo-app --template to create the expo app
+4. Choose blank as your template 
+5. Give a name to the app. It will automatically install the app 
+6.  Run cd "app name"
+7. Run npx start . This would automatically generate a QR code and a URL.
+8. Install Expo Go app on your phone. Scan the QR code with the expo app. This would generate your blank template
+
+
+### Change Background Color of the View Component
+
+In the App.js file, locate the <View> component.
+Add a style prop to the <View> component and set the backgroundColor property to the desired color (e.g., backgroundColor: 'beige').
+
+
+### Edit the Text Component
+
+Inside the <View> component, locate the <Text> component.
+Replace the existing text with "My name is Yeboah Gertrude Asabea".
+
+
+### Increase Font Size of the Text
+
+Add a style prop to the <Text> component.
+Set the fontSize property to 24 (e.g., style={{ fontSize: 24 }}).
+
+
+### Make "Yeboah Gertrude Asabea" Bold
+
+Wrap the text "Yeboah Gertrude Asabea" with another <Text> component.
+Add a style prop to the nested <Text> component and set the fontWeight property to 'bold' (e.g., style={{ fontWeight: 'bold' }}).
+
+### A Screenshot of My Template
+![alt text](../Screenshot_20240527-133603.jpg)
+
+
